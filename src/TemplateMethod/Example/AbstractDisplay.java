@@ -1,9 +1,9 @@
 package TemplateMethod.Example;
 
 public abstract class AbstractDisplay {
-	public abstract void open();
-	public abstract void print();
-	public abstract void close();
+	protected abstract void open();
+	protected abstract void print();
+	protected abstract void close();
 	
 	/**
 	 * open()して、5回 print()して、close()する
